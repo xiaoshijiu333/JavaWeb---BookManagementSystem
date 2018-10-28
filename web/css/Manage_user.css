@@ -1,0 +1,106 @@
+#admin_book_header{
+    height: 70px;
+}
+#admin_book_header .header_center{
+    margin: 0 auto;
+    width: 1000px;
+    height: 70px;
+}
+#admin_book_header .header_center img{
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 50px;
+    float: left;
+}
+#admin_book_header .header_center p{
+    float: left;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 610px;
+    margin-top: 30px;
+    margin-left: 120px;
+    padding: 3px;
+    color: #6c6c6c;
+    background: #fef2f2;
+    font-size: 20px;
+}
+#admin_book_search{
+    height: 80px;
+}
+#admin_book_search .admin_book_search_center{
+    height: 80px;
+    margin: 0 auto;
+    width: 1000px;
+}
+#admin_book_search .admin_book_search_center .bname input{
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 130px;
+    float: right;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+#admin_book_search .admin_book_search_center .button input{
+    margin-top: 30px;
+    width: 40px;
+    height: 30px;
+    float: right;
+    border: none;
+}
+#admin_book_context_header{
+    height: 450px;
+}
+#admin_book_context_header .context_header_center{
+    margin: 0 auto;
+    height: 450px;
+    width: 1000px;
+    background: #fef2f2;
+    position: relative;
+}
+#admin_book_context_header .context_header_center ul{
+    list-style: none;
+    width: 1000px;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+}
+#admin_book_context_header .context_header_center ul li{
+    flex: 1;
+    text-align: center;
+}
+#admin_book_context_header .context_header_center .first_ul{
+    font-size: 15px;
+}
+#admin_book_context_header .context_header_center ul li img{
+    vertical-align: middle;
+    height: 20px;
+}
+#admin_book_context_header .context_header_center ul li a{
+    color: #3CB371;
+}
+
+#admin_book_context_header .context_header_center .pagepage{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+#admin_book_context_header .context_header_center p{
+    margin-left: 30px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+#admin_book_context_header .context_header_center .return_button{
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    height: 30px;
+    width: 200px;
+}
+#admin_book_context_header .context_header_center .return_button button{
+    width: 60px;
+    height: 30px;
+    border: none;
+    margin-right: 25px;
+    background: #0073A9;
+    color: white;
+}

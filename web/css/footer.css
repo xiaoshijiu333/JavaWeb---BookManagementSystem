@@ -1,0 +1,18 @@
+#footer{
+    text-align: center;
+    height: 130px;
+    padding-top: 30px;    
+}
+#footer .Copyright p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+#footer .link a{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #666;
+    font-size: 15px;
+}
+#footer .link a:hover{
+    font-size: 20px;
+}

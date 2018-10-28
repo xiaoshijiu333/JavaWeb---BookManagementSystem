@@ -1,0 +1,102 @@
+#manager_index_header{
+    height: 70px;
+}
+#manager_index_header .header_center{
+    margin: 0 auto;
+    width: 900px;
+    height: 70px;
+}
+#manager_index_header .header_center img{
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 50px;
+    float: left;
+}
+#manager_index_header .header_center p{
+    float: left;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 610px;
+    margin-top: 30px;
+    margin-left: 120px;
+    padding: 3px;
+    color: #6c6c6c;
+    background: #fef2f2;
+    font-size: 20px;
+}
+
+#manager_index_center{
+    margin-top: 30px;
+    height: 449px;
+}
+
+#manager_index_center .center_center{
+    height: 449px;
+    margin: 0 auto;
+    width: 900px;
+    position: relative;
+}
+#manager_index_center .center_center a:hover{
+    text-decoration: none;
+}
+#manager_index_center .center_center img{
+    float: left;
+}
+#manager_index_center .center_center .first_button {
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    top: 80px;
+    right: 40px;
+    color: white;
+    background: orangered;
+    border: none;
+}
+#manager_index_center .center_center .second_button {
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    color: white;
+    background: orangered;
+    border: none;
+    top: 170px;
+    right: 40px;
+}
+
+#manager_index_center .center_center .four_button{
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    color: white;
+    background: orangered;
+    border: none;
+    top: 260px;
+    right: 40px;
+}
+
+#manager_index_center .center_center .third_button{
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    color: white;
+    background: orangered;
+    border: none;
+    top: 350px;
+    right: 40px;
+}
+#manager_index_center .center_center .tips{
+    position: absolute;
+    top: 5px;
+    right: 99px;
+}
+#manager_index_center .center_center .tips p{
+    font-size: 10px;
+}

@@ -1,0 +1,130 @@
+#admin_records_header{
+    height: 70px;
+}
+#admin_records_header .header_center{
+    margin: 0 auto;
+    width: 900px;
+    height: 70px;
+}
+#admin_records_header .header_center img{
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 50px;
+    float: left;
+}
+#admin_records_header .header_center p{
+    float: left;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 610px;
+    margin-top: 30px;
+    margin-left: 120px;
+    padding: 3px;
+    color: #6c6c6c;
+    background: #fef2f2;
+    font-size: 20px;
+}
+#admin_records_search{
+    height: 80px;
+}
+#admin_records_search .admin_records_search_center{
+    height: 80px;
+    margin: 0 auto;
+    width: 900px;
+}
+#admin_records_search .admin_records_search_center .bname input{
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 130px;
+    float: right;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+#admin_records_search .admin_records_search_center .button input{
+    margin-top: 30px;
+    width: 40px;
+    height: 30px;
+    float: right;
+    border: none;
+}
+#admin_records_catagery{
+    height: 50px;
+}
+#admin_records_catagery .admin_records_catagery_center {
+    width: 900px;
+    height: 50px;
+    background: #fef2f2;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#admin_records_catagery .admin_records_catagery_center ul{
+    list-style: none;
+    width: 900px;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+}
+#admin_records_catagery .admin_records_catagery_center ul li{
+    flex: 1;
+    text-align: center;
+}
+#admin_records_catagery .admin_records_catagery_center ul li a{
+    color: #3CB371;
+    font-size: 15px;
+}
+#admin_records_catagery .admin_records_catagery_center ul li a:hover{
+    color: red;
+}
+#admin_records_context_header{
+    height: 450px;
+}
+#admin_records_context_header .context_header_center{
+    margin: 0 auto;
+    height: 450px;
+    width: 900px;
+    background: #fef2f2;
+    position: relative;
+}
+#admin_records_context_header .context_header_center ul{
+    list-style: none;
+    width: 900px;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+}
+#admin_records_context_header .context_header_center ul li{
+    flex: 1;
+    text-align: center;
+}
+#admin_records_context_header .context_header_center ul li a{
+    color: #3CB371;
+}
+#admin_records_context_header .context_header_center ul li a:hover{
+    text-decoration: none;
+    color: red;
+}
+#admin_records_context_header .context_header_center .pagepage{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+#admin_records_context_header .context_header_center p{
+    margin-left: 30px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+#admin_records_context_header .context_header_center .return_button{
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    height: 30px;
+    width: 200px;
+}
+#admin_records_context_header .context_header_center .return_button button{
+    width: 60px;
+    height: 30px;
+    border: none;
+    margin-right: 25px;
+    background: #0073A9;
+    color: white;
+}

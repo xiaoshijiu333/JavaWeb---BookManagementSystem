@@ -1,0 +1,88 @@
+#index_header{
+    height: 70px;
+}
+#index_header .header_center{
+    margin: 0 auto;
+    width: 900px;
+    height: 70px;
+}
+#index_header .header_center img{
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 50px;
+    float: left;
+}
+#index_header .header_center p{
+    float: left;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 610px;
+    margin-top: 30px;
+    margin-left: 120px;
+    padding: 3px;
+    color: #6c6c6c;
+    background: #fef2f2;
+    font-size: 20px;
+}
+
+#index_center{
+    margin-top: 30px;
+    height: 449px;
+}
+
+#index_center .center_center{
+    height: 449px;
+    margin: 0 auto;
+    width: 900px;
+    position: relative;
+}
+#index_center .center_center a:hover{
+    text-decoration: none;
+}
+#index_center .center_center img{
+    float: left;
+}
+#index_center .center_center .first_button {
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    top: 120px;
+    right: 40px;
+    color: white;
+    background: orangered;
+    border: none;
+}
+#index_center .center_center .second_button {
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    color: white;
+    background: orangered;
+    border: none;
+    top: 210px;
+    right: 40px;
+}
+#index_center .center_center .third_button{
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    height: 30px;
+    width: 120px;
+    color: white;
+    background: orangered;
+    border: none;
+    top: 300px;
+    right: 40px;
+}
+#index_center .center_center .tips{
+    position: absolute;
+    top: 5px;
+    right: 90px;
+}
+#index_center .center_center .tips p{
+    font-size: 10px;
+}

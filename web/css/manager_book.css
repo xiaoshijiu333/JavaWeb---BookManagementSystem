@@ -1,0 +1,151 @@
+#manager_book_header{
+    height: 70px;
+}
+#manager_book_header .header_center{
+    margin: 0 auto;
+    width: 1000px;
+    height: 70px;
+}
+#manager_book_header .header_center img{
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 50px;
+    float: left;
+}
+#manager_book_header .header_center p{
+    float: left;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 710px;
+    margin-top: 30px;
+    margin-left: 120px;
+    padding: 3px;
+    color: #6c6c6c;
+    background: #fef2f2;
+    font-size: 20px;
+}
+#manager_book_search{
+    height: 80px;
+}
+#manager_book_search .manager_book_search_center{
+    height: 80px;
+    margin: 0 auto;
+    width: 1000px;
+}
+#manager_book_search .manager_book_search_center .bname input{
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 130px;
+    float: right;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+#manager_book_search .manager_book_search_center .button input{
+    margin-top: 30px;
+    width: 40px;
+    height: 30px;
+    float: right;
+    border: none;
+}
+
+#manager_book_search .manager_book_search_center .add_button{
+    float: left;
+    height: 30px;
+    margin-left: 60px;
+    width: 55px;
+    border: none;
+    margin-top: 30px;
+}
+
+#manager_book_catagery{
+    height: 50px;
+}
+#manager_book_catagery .manager_book_catagery_center {
+    width: 1000px;
+    height: 50px;
+    background: #fef2f2;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#manager_book_catagery .manager_book_catagery_center ul{
+    list-style: none;
+    width: 1000px;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+}
+#manager_book_catagery .manager_book_catagery_center ul li{
+    flex: 1;
+    text-align: center;
+}
+#manager_book_catagery .manager_book_catagery_center ul li a{
+    color: #3CB371;
+    font-size: 15px;
+}
+#manager_book_catagery .manager_book_catagery_center ul li a:hover{
+    color: red;
+}
+#manager_book_context_header{
+    height: 450px;
+}
+#manager_book_context_header .context_header_center{
+    margin: 0 auto;
+    height: 450px;
+    width: 1000px;
+    background: #fef2f2;
+    position: relative;
+}
+#manager_book_context_header .context_header_center ul{
+    list-style: none;
+    width: 1000px;
+    height: 40px;
+    line-height: 40px;
+
+}
+#manager_book_context_header .context_header_center ul li{
+    float: left;
+    width: 114px;
+    text-align: center;
+}
+
+/*不再让每个li均分ul的长度，实现满足让某个li更长的需求*/
+#manager_book_context_header .context_header_center ul .long_li{
+    width: 202px;
+}
+
+#manager_book_context_header .context_header_center ul li img{
+    vertical-align: middle;
+    height: 20px;
+}
+#manager_book_context_header .context_header_center ul li a{
+    color: #3CB371;
+}
+#manager_book_context_header .context_header_center ul li a:hover{
+    text-decoration: none;
+    color: red;
+}
+#manager_book_context_header .context_header_center .pagepage{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+#manager_book_context_header .context_header_center p{
+    margin-left: 30px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+#manager_book_context_header .context_header_center .return_button{
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    height: 30px;
+    width: 200px;
+}
+#manager_book_context_header .context_header_center .return_button button{
+    width: 60px;
+    height: 30px;
+    border: none;
+    margin-right: 25px;
+    background: #0073A9;
+    color: white;
+}

@@ -1,0 +1,146 @@
+#ManaBook_book_header{
+    height: 70px;
+}
+#ManaBook_book_header .header_center{
+    margin: 0 auto;
+    width: 900px;
+    height: 70px;
+}
+#ManaBook_book_header .header_center img{
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 50px;
+    float: left;
+}
+#ManaBook_book_header .header_center p{
+    float: left;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 610px;
+    margin-top: 30px;
+    margin-left: 120px;
+    padding: 3px;
+    color: #6c6c6c;
+    background: #fef2f2;
+    font-size: 20px;
+}
+#book_desc_center{
+    margin-top: 60px;
+    height: 450px;
+}
+
+#book_desc_center .desc_center_center{
+    margin: 0 auto;
+    height: 450px;
+    width: 900px;
+    background: #fef2f2;
+    position: relative;
+}
+
+#book_desc_center .desc_center_center p{
+    float: left;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+#book_desc_center .desc_center_center form .name_input{
+    height: 50px;
+    width: 260px;
+    position: absolute;
+    top: 60px;
+    left: 200px;
+}
+#book_desc_center .desc_center_center form label{
+    font-size: 14px;
+    /*这里需要设置display，不然不能设置宽度*/
+    display: inline-block;
+    width: 81px;
+}
+#book_desc_center .desc_center_center form .name_input input{
+    font-size: 14px;
+    width: 170px;
+    background: #fef2f2;
+    border: 0.5px solid black;
+}
+#book_desc_center .desc_center_center form .writer_input{
+    height: 50px;
+    width: 280px;
+    position: absolute;
+    top: 60px;
+    left: 480px;
+}
+#book_desc_center .desc_center_center form .writer_input input{
+    font-size: 14px;
+    width: 190px;
+    background: #fef2f2;
+    border: 0.5px solid black;
+}
+#book_desc_center .desc_center_center form .position_input{
+    height: 50px;
+    width: 280px;
+    position: absolute;
+    top: 110px;
+    left: 480px;
+}
+#book_desc_center .desc_center_center form .position_input input{
+    font-size: 14px;
+    width: 190px;
+    background: #fef2f2;
+    border: 0.5px solid black;
+}
+#book_desc_center .desc_center_center form .canlend_input{
+    height: 50px;
+    width: 260px;
+    position: absolute;
+    top: 110px;
+    left: 200px;
+}
+#book_desc_center .desc_center_center form .canlend_input input{
+    font-size: 14px;
+    width: 170px;
+    background: #fef2f2;
+    border: 0.5px solid black;
+}
+
+#book_desc_center .desc_center_center form .cid_input{
+    height: 50px;
+    width: 260px;
+    position: absolute;
+    top: 160px;
+    left: 200px;
+}
+#book_desc_center .desc_center_center form .cid_input select{
+    font-size: 14px;
+    width: 170px;
+    background: #fef2f2;
+    border: 0.5px solid black;
+}
+
+#book_desc_center .desc_center_center form .desc_input{
+    height: 50px;
+    width: 400px;
+    position: absolute;
+    top: 210px;
+    left: 200px;
+}
+#book_desc_center .desc_center_center form .desc_input textarea{
+    width: 300px;
+    height: 150px;
+    border: 0.5px solid black;
+}
+
+#book_desc_center .desc_center_center form .desc_button{
+    position: absolute;
+    bottom: 20px;
+    left: 265px;
+    height: 30px;
+    width: 200px;
+}
+#book_desc_center .desc_center_center form .desc_button input{
+    width: 40px;
+    height: 30px;
+    border: none;
+    margin-right: 25px;
+    background: orangered;
+    color: white;
+}

@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    height: 88px;
+}
+
+#header .h_center {
+    margin: 0 auto;
+    width: 1200px;
+    height: 88px;
+}
+
+#header .h_center img {
+    height: 60px;
+    float: left;
+    margin-top: 5px;
+}
+
+#header .h_center p {
+    float: left;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 880px;
+    margin-top: 20px;
+    margin-left: 80px;
+    padding: 3px;
+    color: #6c6c6c;
+    background: #fef2f2;
+    font-size: 20px;
+
+}
+
+#login_body {
+    height: 500px;
+    background-image: url("../images/admin.png");
+    background-position: center center;
+}
+
+.login_b_center {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#login_body .login_bg {
+    width: 350px;
+    height: 350px;
+    background: rgba(355, 355, 355, 0.9);
+    position: absolute;
+    right: 10px;
+    top: 85px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.password_forget a:first-child {
+    color: cadetblue;
+}
+
+.login_bg div {
+    height: 40px;
+    margin-top: 10px;
+}
+
+.login_bg .err {
+    height: 20px;
+    margin-bottom: 25px;
+}
+
+.login_bg .err p {
+    display: inline-block;
+    font-size: 15px;
+    float: left;
+}
+
+.login_bg .err span {
+    display: inline-block;
+    color: red;
+    float: left;
+    font-size: 14px;
+    margin-left: 50px;
+}
+
+.login_bg .userName span {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    float: left;
+    line-height: 40px;
+}
+
+.login_bg .userName input {
+    height: 40px;
+    width: 230px;
+    float: left;
+    padding-left: 5px;
+    margin-left: 20px;
+}
+
+.login_bg .password {
+    margin-top: 20px;
+}
+
+.login_bg .password span {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    float: left;
+    line-height: 40px;
+}
+
+.login_bg .password input {
+    height: 40px;
+    width: 230px;
+    float: left;
+    padding-left: 5px;
+    margin-left: 20px;
+}
+
+.login_bg .select {
+    margin-top: 20px;
+}
+
+.login_bg .select span {
+    display: inline-block;
+    height: 30px;
+    width: 40px;
+    float: left;
+    line-height: 30px;
+}
+
+.login_bg .select select {
+    height: 30px;
+    width: 230px;
+    float: left;
+    padding-left: 5px;
+    margin-left: 20px;
+}
+
+.login_bg .hrh input {
+    background-color: #ff4400;
+    color: white;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.login_bg .password_forget {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.login_bg .password_forget a {
+    color: black;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.login_bg .password_forget a:hover{
+    color: red;
+}
+a {
+    text-decoration: none;
+    font-size: 15px;
+}

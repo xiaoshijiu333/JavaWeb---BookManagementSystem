@@ -1,0 +1,123 @@
+#reg_header{
+    height: 110px;
+    width: 100%;
+    box-shadow: 5px 0px 15px #ccc;
+    /*x 方向偏移量  y 方向偏移量   模糊程度   颜色*/
+}
+#reg_header .reg_h_center{
+    width: 1200px;
+    height: 110px;
+    margin: 0 auto;
+}
+#reg_header .reg_h_center .reg_h_left{
+    float: left;
+    width: 900px;
+    height: 110px;
+}
+#reg_header .reg_h_center .reg_h_left img{
+    height: 60px;
+    float: left;
+    margin-top: 10px;
+}
+#reg_header .reg_h_center .reg_h_left p{
+    float: left;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 80px;
+    padding: 3px;
+    color: #6c6c6c;
+    background: #fef2f2;
+    font-size: 20px;
+}
+
+#reg_header .reg_h_center .reg_h_right{
+    float: left;
+    width: 200px;
+    height: 110px;
+}
+#reg_header .reg_h_center .reg_h_right a{
+    float: right;
+    font-size: 15px;
+    color: #666;
+    line-height: 110px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+#reg_header .reg_h_center .reg_h_right a:hover{
+    color: red;
+}
+#reg_header .reg_h_center .reg_h_right span{
+    float: right;
+    line-height: 110px;
+    font-size: 15px;
+    color: #666;
+}
+
+#reg_content {
+    width: 1200px;
+
+    height: 550px;
+    margin: 20px auto;
+}
+#reg_content  .reg_content_left{
+    margin-left: 140px;
+    float: left;
+    position: relative;
+}
+#reg_content  .reg_content_left form{
+    margin: 50px auto;
+    display: block;
+    width: 600px;
+    position: relative;
+}
+#reg_content  .reg_content_left span{
+    position: absolute;
+    font-size: 20px;
+    color: red;
+    top: 10px;
+    left: 250px;
+}
+#reg_content  .reg_content_left form div{
+    width: 400px;
+    height: 64px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    line-height: 64px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #666;
+    position: relative;
+
+}
+#reg_content  .reg_content_left form div:last-child{
+    border:  none;
+    padding: 0;
+}
+#reg_content  .reg_content_left form img{
+    width: 108px;
+    height: 40px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+#reg_content  .reg_content_left form p{
+    right: 76px;
+    bottom: 85px;
+    position: absolute;
+}
+
+#reg_content  .reg_content_left form .submit_button input{
+    width: 400px;
+    height: 44px;
+    background: #ff4400;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+#reg_content  .reg_content_left form input::-webkit-input-placeholder{
+    font-size: 14px;
+
+}

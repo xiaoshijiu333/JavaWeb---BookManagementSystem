@@ -1,0 +1,102 @@
+#admin_book_header{
+    height: 70px;
+}
+#admin_book_header .header_center{
+    margin: 0 auto;
+    width: 900px;
+    height: 70px;
+}
+#admin_book_header .header_center img{
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 50px;
+    float: left;
+}
+#admin_book_header .header_center p{
+    float: left;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 610px;
+    margin-top: 30px;
+    margin-left: 120px;
+    padding: 3px;
+    color: #6c6c6c;
+    background: #fef2f2;
+    font-size: 20px;
+}
+#book_desc_center{
+     margin-top: 60px;
+     height: 450px;
+ }
+
+#book_desc_center .desc_center_center{
+    margin: 0 auto;
+    height: 450px;
+    width: 900px;
+    background: #fef2f2;
+    position: relative;
+}
+
+#book_desc_center .desc_center_center p{
+    float: left;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+#book_desc_center .desc_center_center form .name_input{
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    top: 100px;
+    left: 265px;
+}
+#book_desc_center .desc_center_center form label{
+    font-size: 14px;
+    margin-right: 25px;
+}
+#book_desc_center .desc_center_center form .name_input input{
+    font-size: 14px;
+    width: 150px;
+    background: #fef2f2;
+    border: 0.5px solid black;
+}
+#book_desc_center .desc_center_center form .lend_count_input{
+    height: 50px;
+    width: 250px;
+    position: absolute;
+    top: 150px;
+    left: 265px;
+}
+#book_desc_center .desc_center_center form .lend_count_input input{
+    font-size: 14px;
+    width: 150px;
+    background: #fef2f2;
+    border: 0.5px solid black;
+}
+#book_desc_center .desc_center_center form .desc_input{
+    height: 50px;
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 265px;
+}
+#book_desc_center .desc_center_center form .desc_input textarea{
+    width: 300px;
+    height: 150px;
+    border: 0.5px solid black;
+}
+#book_desc_center .desc_center_center form .desc_button{
+    position: absolute;
+    bottom: 20px;
+    left: 265px;
+    height: 50px;
+    width: 200px;
+}
+#book_desc_center .desc_center_center form .desc_button input{
+    width: 40px;
+    height: 30px;
+    border: none;
+    margin-right: 25px;
+    background: orangered;
+    color: white;
+}
